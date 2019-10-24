@@ -65,6 +65,8 @@
                                             {{ csrf_field() }}
                                         </form>
                                     </li>
+
+                                    <li> <a href="{{ route('dodavanjetekstova') }}">Dodaj Tekst</a></li>
                                 </ul>
                             </li>
                         @endif

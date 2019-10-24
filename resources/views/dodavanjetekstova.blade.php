@@ -67,14 +67,24 @@
     <h4> Dodavanje pesama</h4>
     </div>
     <div class="panel-body">
-    <form action="#" method="post">
+    <form action="/insert" method="post">
+    {{csrf_field()}}
+    <div class="form-group">
+    
+    <label for="title">Izvodjac</label>
+    <input type ="text" name="izvodjac" id="title" class="form-control">
+    </div>
+
     <div class="form-group">
     <label for="title">Naslov</label>
-    <input type ="text" name="title" id="title" class="form-control">
+    <input type ="text" name="naslov" id="title" class="form-control">
     </div>
+
     <div class="form-group">
-    <textarea id="summernote" name="summernote" class="form-control"></textarea>
-    </div> 
+    <label for="title">Tekst pesme</label>
+    <textarea id="summernote" name="tekst" class="form-control"></textarea>
+    </div>
+    <input type="submit"name="submit" value="pritisni">
     
     </form>
     </div>
@@ -82,7 +92,7 @@
     </div>
     <script type="text/javascript">
     $(document).ready(function(){
-    $('#summernote').summernote()
+    $('#summernote').summernote(
         
         {
             height:"300px",

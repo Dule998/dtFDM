@@ -42,6 +42,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/music', 'MusicController@index')->name('music');
 
+Route::get('/dodavanjetekstova', 'SummernoteController@index')->name('dodavanjetekstova');
+
+
+Route::post('/insert','Controller@insert');
 
 
 
