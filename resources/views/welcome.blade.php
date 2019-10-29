@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-2">
             <div class="panel">
-            Reklame 
+            Reklame majmune glupi aaaa Jebi jesee asdasdasasdasdasdbjjjaskbasdbkjbsakdb
             </div>
         </div>
         <div class="col-md-8">

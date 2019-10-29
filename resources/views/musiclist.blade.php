@@ -8,7 +8,7 @@
         </div>
           <div class="col-md-8">
             <div class="panel">
-                <span class="border border-secondary"style="font-size: 23px;">gsdfsdfsf</span>
+                <span class="border border-secondary"style="font-size: 23px;">Mi smo momci iz kalosa ojlala ojlala</span>
                 
                 <a href="{{ route('music') }}" class="btn btn-primary stretched-link" style="float:right;">Prikazi</a>
             </div>
